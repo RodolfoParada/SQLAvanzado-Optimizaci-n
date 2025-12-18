@@ -255,3 +255,14 @@ ORDER BY total_gastado DESC;
 -- Crear índices recomendados
 CREATE INDEX idx_usuarios_activo ON usuarios(activo);
 CREATE INDEX idx_pedidos_usuario_total ON pedidos(usuario_id, total);
+
+
+
+
+
+
+<!-- Ejercicio: Optimiza una base de datos de red social creando índices apropiados,
+ reescribiendo consultas lentas con subconsultas eficientes, implementando un sistema 
+ de transacciones para publicaciones con comentarios, y creando reportes de engagement 
+ usando funciones de ventana.
+  -->
